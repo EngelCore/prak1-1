@@ -1,0 +1,58 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+   .block1 
+{
+    border:none;
+    position: absolute;
+    top: 810px;
+    left: 400px;
+    transition-duration: 1s;
+    transition-property: all;
+    
+}
+.block1:hover {
+    transform: scale(1.2);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+.block2
+{
+    size: 110%;
+    border:none;
+    outline: none;
+    background: none;
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    top: 710px;
+    left: 850px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.block2:hover {
+    transform: scale(1.2);
+  }
+.block3 
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    color: aliceblue;
+    font-size: 40px;
+    top: 800px;
+    left: 1350px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.block3:hover {
+    transform: scale(1.2);
+  }
+  
+
+
+  
